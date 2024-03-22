@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RMP2</string>
+    <string name="title_name1">Test</string>
+    <string name="title_name2">Test2</string>
+    <string name="field">Текст для EditText</string>
+    <string name="change">Новый текст</string>
+    <string name="nextButton">Далее</string>
+    <string name="backButton">Назад</string>
+    <string name="logButton">Вывод в log</string>
+    <string name="activityButton">Смена activity</string>
+    <string name="mainButton">Вернуться в MainActivity</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_top_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="225dp"
+        android:text="Текст_1"
+        android:textSize="36dp"/>
+
+    <TextView
+        android:id="@+id/text_top_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="225dp"
+        android:text="Текст_2"
+        android:textSize="36dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/neonOrange"
+        android:text="Кнопочка"
+        android:textColor="@color/black"
+        android:textSize="36dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="360dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@color/melon"
+        android:hint="Поле для ввода текста"
+        android:inputType="text"/>
+</RelativeLayout>
